@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+{% load static %} <!-- New line -->
+
+<html>
+
+    <head>
+        <title>Lucy</title>
+    </head>
+
+    <body>
+        <h1>Lucy says...</h1>
+        hello world! <strong>{{ boldmessage }}</strong><br />
+        <a href="/lucy/about/">About</a><br />
+        <img src="{% static "image.jpg" %}" alt="Picture of Lucy" /> <!-- New line -->
+    </body>
+
+</html>
